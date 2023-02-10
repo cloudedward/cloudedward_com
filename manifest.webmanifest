@@ -1,0 +1,65 @@
+{
+  "lang": "es-DO",
+  "name": "Clouded Ward",
+  "short_name": "Clouded Ward",
+  "description": "Progressive Web App.",
+  "start_url": ".",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "assets/img/manifest/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/manifest/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshot": [
+    {
+      "src": "assets/img/manifest/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/manifest/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tienda Treinta",
+      "url": "/treinta",
+      "icons": [
+        {
+          "src": "/assets/img/manifest/android-chrome-512x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Inicio",
+      "url": "index.html",
+      "icons": [
+        {
+          "src": "/assets/img/manifest/android-chrome-512x512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ],
+  "launch_handler": {
+    "route_to": "existing-client",
+    "navigate_existing_client": "always"
+  },
+  "id": "index",
+  "theme_color": "#2f4efe",
+  "background_color": "#ffffff",
+  "android_package_name": "com.cloudedward.android",
+  "display_override": ["window-controls-overlay"]
+}
