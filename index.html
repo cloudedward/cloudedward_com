@@ -428,11 +428,6 @@
         <a href="https://github.com/cloudedward/cloudedward_com" class="github" title="githubIcoLink"><i class="bx bxl-github"></i></a>
         <a href="#" class="whatsapp" title="whatsappIcoLink"><i class="bx bxl-whatsapp"></i></a>
       </div>
-      {% if site.github.is_project_page %}
-      <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name
-              }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name
-              }}</a>.</span>
-      {% endif %}
       <div class="copyright">
         &copy; Copyright <strong><span>Clouded Ward</span></strong>. All Rights Not Reserved
       </div>
@@ -474,5 +469,9 @@
     } 
   </script>
 </body>
-
 </html>
+{% if site.github.is_project_page %}
+      <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name
+              }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name
+              }}</a>.</span>
+      {% endif %}
